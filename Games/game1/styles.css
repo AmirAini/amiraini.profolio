@@ -1,0 +1,29 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+#slider-holder{
+    width: 400%;
+    height: 100vh;
+    margin: 0 auto;
+    border: 2px solid black;
+    position: relative;
+}
+
+.btnR {
+    position: fixed;
+    right: 100px;
+    position: absolute;
+}
+
+.btnL {
+    position: fixed;
+    left: 100px;
+    position: absolute;
+}

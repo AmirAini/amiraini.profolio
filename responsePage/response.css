@@ -1,0 +1,83 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+html, body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+:root {
+    --pri-clr: skyblue;
+    --sdn-clr: beige;
+    --ter-clr: pink;
+
+}
+
+#container {
+    width: 900px;
+    height: 700px;
+    background-color: var(--pri-clr);
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+}
+
+#responseBox {
+    width: 900px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.responseRow {
+    width: 900px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.userName {
+    width: 225px;
+    height: 100%;
+    text-align: justify;
+    margin: 10px;
+    margin-left: 10px;
+}
+
+.userEmail {
+    width: 225px;
+    height: 100%;
+    text-align: justify;
+    margin: 10px;
+}
+
+.userRemark {
+    width: 225px;
+    height: 100%;
+    text-align: justify;
+    margin: 10px;
+}
+
+.date {
+    width: 225px;
+    height: 100%;
+    text-align: justify;
+    margin: 10px;
+}
+
+
+
+
